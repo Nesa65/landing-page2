@@ -1,17 +1,43 @@
+body{
+  padding:5px;
+}
+
+
 a {
     text-decoration: none;
+    color:rgb(122, 121, 121);
+  
+  }
+  .left-box{
+    display: inline-block;
+    padding:20px;
+  }
+  .left-box b{
+    margin:0 5px;
+    font-size:20px;
+  }
+  .right-box{
+    display: inline-block;
+    width:1000px;
+    text-align: right;
   }
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
+
+  
   }
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+  li a{
+    display: inline-block;
+    margin:0 15px;
   }
+  
+  li{
+    display:inline-block;
+
+  }
+
 h1{
     width:200px;
     margin:30px;
@@ -32,4 +58,15 @@ p{
     font-size: 20px;
     margin:40px;
 }
+.last-item{
+  width:120px;
+  background-color: rgb(240, 117, 219);
+  height:25px;
+  padding:10px;
+  text-align:center;
+  border-radius:30px;
 
+}
+.last-item a{
+  color:white;
+}
